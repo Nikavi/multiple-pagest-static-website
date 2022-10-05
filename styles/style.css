@@ -1,13 +1,22 @@
 body {
-    background-color: blueviolet;
+  background-color: cornflowerblue;
 }
 
 h1 {
-    text-align: center;
-    color: antiquewhite;
+  text-align: center;
+  color: white;
 }
 
-a {
-    color: beige;
-    text-align: center;
+.navigation-links a {
+  margin: 20px;
+  color: blueviolet;
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.p {
+  display: flex;
+  justify-content: space-evenly;
 }
