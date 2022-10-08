@@ -1,5 +1,9 @@
+:root {
+--background-color: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+--button-color: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+}
 body {
-  background-color: cornflowerblue;
+  background: var(--background-color);
 }
 
 h1 {
@@ -9,8 +13,8 @@ h1 {
 
 .navigation-links a {
   margin: 20px;
-  color: blueviolet;
-  background-color: white;
+  color: white;
+  background: var(--button-color);
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
