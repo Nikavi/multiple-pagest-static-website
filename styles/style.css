@@ -1,6 +1,17 @@
 :root {
---background-color: linear-gradient(to top, #c79081 0%, #dfa579 100%);
---button-color: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  --background-color: linear-gradient(to right, #434343 0%, black 100%);
+  --button-color: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
 }
 body {
   background: var(--background-color);
@@ -10,9 +21,14 @@ h1 {
   text-align: center;
   color: white;
 }
-
+#semla {
+  max-width: 60%;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
 .navigation-links a {
-  margin: 20px;
+  margin: 10px;
   color: white;
   background: var(--button-color);
   border-radius: 4px;
